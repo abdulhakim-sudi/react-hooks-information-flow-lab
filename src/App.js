@@ -1,8 +1,7 @@
-// src/App.js
 import React, { useState } from "react";
 import Header from "./components/Header";
 import ShoppingList from "./components/ShoppingList";
-import itemData from "./data/items"; // Or wherever your item data is stored
+import itemData from "./data/items";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);

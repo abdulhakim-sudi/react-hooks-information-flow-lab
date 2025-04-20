@@ -1,4 +1,3 @@
-// src/components/ShoppingList.js
 import React, { useState } from "react";
 import Item from "./Item";
 import Filter from "./Filter";
@@ -20,11 +19,7 @@ function ShoppingList({ items }) {
 
       <ul>
         {itemsToDisplay.map((item) => (
-          <Item
-            key={item.id}
-            name={item.name}
-            category={item.category}
-          />
+          <Item key={item.id} name={item.name} category={item.category} />
         ))}
       </ul>
     </div>
